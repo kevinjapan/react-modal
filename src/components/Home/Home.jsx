@@ -53,7 +53,7 @@ const Home = props => {
 
             <div className="md:flex md:p-10 gap-10">
 
-                <section className="flex-initial order-last mx-auto w-8/12 md:w-3/12 m-5 mt-9 md:mt-16 border rounded border-slate-300 bg-white w-fit h-fit text-center">
+                <section className="flex-initial order-last mx-auto w-8/12 md:w-3/12 m-5 mt-9 md:mt-16 border rounded border-slate-300 bg-white h-fit text-center">
                     <div className="text-2xl md:text-3xl p-3">Tasks</div>
                         <ul className="border-b">
                         {tasks.map((task,index) => (
