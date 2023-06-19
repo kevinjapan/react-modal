@@ -31,7 +31,6 @@ const AddTaskForm = props => {
         if(!validate_string(formJson['outline'],{'min_length':10,'max_length':500},setOutlineFeedback)) {
             validated = false
         }
-
         if(validated) props.onSubmit(formJson)
     }
 

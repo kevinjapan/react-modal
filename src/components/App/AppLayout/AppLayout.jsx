@@ -9,10 +9,12 @@ const AppLayout = () => {
     return (
         <>
             <AppHeader/>
+
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
-            <AppFooter/>
+
+            <AppFooter/>            
         </>
     )  
 }
